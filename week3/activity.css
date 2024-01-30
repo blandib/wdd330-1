@@ -1,0 +1,20 @@
+.pokemon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+    padding: 1em;
+}
+
+.pokemon-card {
+    border: 5px solid #e7baba;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+img {
+    width: 250px;
+}
